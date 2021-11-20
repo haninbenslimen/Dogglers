@@ -54,7 +54,8 @@
                 The dog's hobbies-->
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/textName"
+            style="@style/Widget.Dogglers.TextName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -65,21 +66,22 @@
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textAge"
+            style="@style/Widget.Dogglers.TextAge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            app:layout_constraintStart_toStartOf="@+id/textView1"
-            app:layout_constraintTop_toBottomOf="@+id/textView1"
+            app:layout_constraintStart_toStartOf="@+id/textName"
+            app:layout_constraintTop_toBottomOf="@+id/textName"
             tools:text="@string/dog_age" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textHobbies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            app:layout_constraintStart_toStartOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textAge"
+            app:layout_constraintTop_toBottomOf="@+id/textAge"
             android:layout_marginTop="16dp"
             android:paddingBottom="8dp"
             tools:text="@string/dog_hobbies" />
